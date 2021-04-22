@@ -1,0 +1,525 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 1.7em;
+    font-size: 16px;
+}
+header {
+    width: 100%;
+}
+
+a{
+    text-decoration: none;
+}
+/***navbar*/
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+/***ncotainer**/
+.container {
+    max-width: 1100px;
+    margin:  auto;
+}
+
+/***burger**/
+.burger {
+    display: none;
+}
+
+.binga img {
+    position: absolute;
+    left: 20px;
+    padding: 2px;
+}
+
+.binga img:hover {
+    background-color: rgb(167, 159, 159);
+}
+
+
+/***nav-link**/
+#all-items {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+#all-items li {
+    display: flex;
+    justify-content: space-between;
+}
+
+#all-items li a {
+    text-decoration: none;
+    padding: 0px 20px;
+    color: black;
+    height: 40px;
+}
+
+.pro button {
+    border: none;
+    background: none;
+}
+
+
+#all-items li a:hover{
+    color: rgb(209, 79, 79);
+    border-bottom:2px solid;
+}
+/***button**/
+.btn  button{
+  background: none;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 20px;
+  margin-bottom: 5px;
+}
+
+.btn a {
+    color: #333;
+}
+
+ .btn :hover{
+    background: rgb(236, 183, 183);
+    color: rgb(184, 23, 23);
+}
+/***logo**/
+.logo {
+    background: rgb(187, 33, 33);
+    padding: 0px 20px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.logo a {
+    text-decoration: none;
+}
+
+/***nfirst-section**/
+.first-section {
+    background: url('../css/img/danny-swellchasers-dL4w1HPVD40-unsplash.jpg') no-repeat center
+    center/cover;
+    height: 400px;
+    width: 100%;
+}
+
+.first-section h3 {
+    text-align: center;
+    padding-top: 200px;
+    color: #fff;
+}
+
+/***second-section**/
+.second-section {
+height: 800px;
+width: 100%;
+background: white;
+}
+
+/***one-menu**/
+.one-menu {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+}
+
+/***first-cards**/
+.first-cards {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.card-1,
+.card-2,
+.card-3 {
+    box-shadow: 1px 1px 20px 2px rgb(233, 229, 229);
+    width: 250px;
+    border-radius: 5px;
+}
+
+.img-1,
+.img-2,
+.img-3 {
+    margin-left: 70px;
+    border-radius: 5px;
+}
+/***two-menu**/
+.two-menu {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+
+
+/***ultility class***/
+.view {
+    background: rgb(110, 28, 28);
+    padding: 1px 15px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.settings{
+    margin-top: 145px;
+    margin-left: 20px;
+}
+
+.p-1, .p-2, .p-3{
+    margin-left: 5px;
+}
+
+.view p:hover {
+color: greenyellow;
+}
+/***second-cards**/
+.second-cards {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+
+.page-1,
+.page-2,
+.page-3 {
+    box-shadow: 1px 1px 20px 2px rgb(233, 225, 225);
+    height: 250px;
+    width: 160px;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.page-image-1{
+    background: url('../css/img/waldemar-brandt-Rhj6kftdXhM-unsplash.jpg') no-repeat
+    center center/cover;
+    height: 200px;
+    width: 150px;
+    overflow: hidden;
+    margin-top: 10px;
+    margin-left: 20px;
+    border-radius: 5px;
+}
+.page-image-2 {
+    background: url('../css/img/patrick-robert-doyle-G_xCmQ4HyAM-unsplash.jpg') no-repeat
+    center center/cover;
+    height: 200px;
+    width: 150px;
+    overflow: hidden;
+    margin-top: 10px;
+    margin-left: 20px;
+    border-radius: 5px;
+}
+.page-image-3 {
+    background: url('../css/img/federico-di-dio-photography-8113Nz_Wia4-unsplash.jpg') no-repeat
+    center center/cover;
+    height: 200px;
+    width: 150px;
+    overflow: hidden;
+    margin-top: 10px;
+    margin-left: 20px;
+    border-radius: 5px;
+}
+/***sign-up**/
+.sign-up {
+    text-align: center;
+    margin-top: 50px;
+}
+.inputer {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sub {
+    margin-left: 10px;
+    background: rgb(107, 18, 18);
+    border-radius: 5px;
+    padding: 2px 15px;
+    cursor: pointer;
+}
+
+.sub-hov :hover {
+    color: greenyellow;
+}
+
+input {
+    padding: 5px 10px;
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+
+/***sfooter**/
+footer {
+    background: rgb(58, 57, 57);
+    color: #fff;
+    width: 100%;
+    height: 200px;
+    padding-top: 80px;
+}
+
+.frank {
+    cursor: pointer;
+    background: rgb(153, 30, 30);
+    color: #fff;
+    padding: 0px 10px;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.frank :hover {
+    color: greenyellow;
+}
+
+.frank a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.list-1,
+.list-2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.list-2 {
+margin-top: 10px;
+}
+
+.medias img{
+    margin: 0px 5px;
+}
+/************about.html*****************/
+nav {
+    padding: 10px 30px;
+}
+
+.nav-app {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px auto;
+}
+.logos a{
+    text-decoration: none;
+    background: yellowgreen;
+    padding: 5px 8px;
+}
+
+.logos a{
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    }
+
+.logos :hover{
+color: rgb(236, 16, 16);
+}
+
+.button  button{
+    background: none;
+    border: none;
+}
+.button  :hover{
+    background: rgb(74, 146, 98);
+    color: rgb(206, 23, 23);
+    border: none;
+}
+.btn-blue a {
+    text-decoration: none;
+}
+.button {
+    border:2px solid blue;
+    border-radius: 20px;
+}
+.btn-1 a {
+    color: black;
+    text-decoration: none;
+}
+.btn-1,
+.btn-2 {
+    padding: 10px 15px;
+    border-radius: 20px;
+}
+
+.btn-2 a{
+  text-decoration: none;
+}
+
+.btn-1 {
+  margin-right: 40px;  
+}
+
+form {
+    text-align: center;
+}
+
+label {
+    font-size: 22px;
+}
+.show-list {
+    height: 400px;
+    background: #333;
+    color: pink;
+    padding-top: 50px;
+    text-align: center;
+}
+
+.show-list h5 {
+    margin-bottom: 25px;
+    color: rgb(36, 219, 36);
+    text-align: center;
+    font-size: 18px;
+}
+
+.firs-name input {
+    margin-left: 25px;
+    padding-right: 50px;
+    border-radius: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.last-name input {
+    margin-left: 25px;
+    padding-right: 50px;
+    border-radius: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.email input{
+    padding-right: 50px;
+    border-radius: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.password input{
+    margin-left: 30px;
+    padding-right: 50px;
+    border-radius: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.pro button {
+    background: rgb(102, 23, 23);
+    display: inline-block;
+    padding: 15px 30px;
+    border-radius: 20px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.pro button{
+  color: #fff;
+  text-decoration: none;
+}
+
+.pro button:hover{
+   color: greenyellow;
+}
+.btn-red a{ 
+    text-decoration: none;}
+
+    .last-section {
+        background: url('../css/img/icons/abandoned-forest-hd-wallpaper-34950.jpg')no-repeat 
+        center center/cover;
+        overflow: auto;
+        width: 100%;
+        height: 600px;
+        color: white;
+    }
+
+
+    .last-boxes {
+        margin-top: 80px;
+        height: 100%;
+    }
+
+    .kontent p {
+        text-align: center;
+    }
+
+    .last-boxes {
+      display: flex;
+    justify-content: space-between;
+    }
+
+    .box-1,
+    .box-2 {
+        background: black;
+        padding: 5px 10px;
+        height: 200px;
+        border: 5px solid rgb(12, 221, 12);
+        border-radius: 20px;
+    }
+
+
+    .box-1 h4,
+    .box-2 h4 {
+        color: rgb(255, 232, 127);
+        margin-bottom: 20px;
+    }
+    /*************sign-showcase************************/
+    h4,
+    .passy {
+        text-align: center;
+    }
+
+    .sign-showcase {
+        padding-top: 100px;
+    }
+    .passy {
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+    .trial {
+        object-fit: cover;
+    }
+
+.user-name input,
+.passwords input {
+    padding: 15px 40px;
+    border-radius: 20px;
+}
+
+.logg {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 1px solid rgb(134, 128, 128);
+    display:inline-block;
+    padding: 5px 80px;
+    background: rgb(79, 81, 218);
+    color: white;
+    border-radius: 20px;
+}
+.forg {
+    margin-top: 10px;
+}
+.creat {
+    color: rgb(79, 81, 218);
+}
+
+.logger :hover{
+ background: rgb(73, 116, 9);
+ color:black;
+ cursor: pointer;
+}
+
+.creater {
+    display: inline-block;
+}
+
+
+.creater :hover{
+    cursor: progress;
+    color: yellowgreen;
+}
+
+    

@@ -1,0 +1,327 @@
+body {
+    overflow-x: hidden;
+    min-width: 100%;
+}
+
+/**header***/
+header {
+    min-width: 100%;
+}
+.logo,
+.btn {
+    margin: 0px 15px;
+}
+.logo{
+    margin-bottom: 5px;
+}
+
+.logo {
+    display: none;
+}
+
+
+/***burger**/
+.burger {
+    display: block;
+}
+
+/***navlink**/
+#all-items {
+    display: none;
+}
+
+#all-items li a:hover {
+    border-bottom: none;
+    background: rgb(219, 216, 216);
+    width: 100%;
+    padding: none;
+}
+/**showcase**/
+.showcase {
+    min-width: 100%;
+}
+.first-section {
+    min-width: 100%;
+}
+.card-1,
+.card-2,
+.card-3 {
+    margin-left: 25%;
+}
+.page-1,
+.page-2,
+.page-3 {
+    margin-left: 35%;
+}
+/***second-section***/
+.second-section {
+    height: 100%;min-width: 100%;
+    padding-bottom: 20px;
+}
+/***ultility**/
+.one-menu,
+.two-menu {
+    margin: 0px 15px;
+}
+/**first-cards**/
+.second-section .first-cards{
+    display: block;
+    width: 100%;
+    text-align: center;
+    overflow-x: hidden;
+}
+
+.card-2,
+.card-3 {
+    margin-top: 30px;
+}
+/**second-cards***/
+.second-cards {
+    flex-direction: column;
+}
+
+.page-2,
+.page-3 {
+    margin-top: 50px;
+}
+/**footer***/
+footer {
+    margin-top: px;
+    height: 100%;
+    width: 100%;
+    padding-bottom: 60px;
+}
+
+.list-2 {
+    margin-top: 20px;
+}
+
+.list-1,
+.list-2 {
+    display: block;
+    text-align: center;
+}
+
+.frank {
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 20px;
+}
+
+/***medi-query***/
+@media(max-width:360px){
+    .navbar  .logo .btn{
+        padding: 0px 20px;
+}
+header {
+    width: 100%;
+}
+.showcase {
+    width: 100%;
+}
+.second-section{
+    height:100%;
+    min-width: 100%;
+}
+.first-cards{
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+
+.page-1,
+.page-2,
+.page-3 {
+    margin-left: 100px;
+}
+
+footer  .list-1,
+.list-2{
+  flex-direction: column;
+  text-align: center;
+  width: 100%;
+}
+.frank {
+    margin: 0px 120px;
+    margin-bottom: 10px;
+}
+body {
+    overflow-x: hidden;
+}
+}
+@media (max-width:411px){
+    .navbar  .logo .btn{
+        padding: 0px 20px;
+}
+body {
+    overflow-x: hidden;
+}
+.first-cards {
+   min-width: 100%;
+}
+.card-1,
+.card-2,
+.card-3{
+    margin-left: 60px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.page-1,
+.page-2,
+.page-3{
+margin-left: 115px;
+}
+.second-cards {
+     min-width: 100%;
+}
+
+footer  .list-1,
+.list-2{
+  flex-direction: column;
+  text-align: center;
+}
+.frank {
+    margin: 0px 120px;
+    margin-bottom: 10px;
+}
+}
+
+@media (max-width:320px){
+    .card-1,
+    .card-2,
+    .card-3{
+       margin-top: 20px;
+       margin-bottom: 10px;
+      width: 200px;
+    }
+    .card-1 img,
+    .card-2 img,
+    .card-3 img {
+     margin-left: auto;   
+    }
+    .page-1,
+    .page-2,
+    .page-3 {
+        margin-left: 70px;
+    }
+}
+ 
+
+@media (max-width:414px){
+    .card-1,
+    .card-2,
+    .card-3{
+       margin-left: 80px; 
+       margin-top: 20px;
+       margin-bottom: 10px;
+    }
+    .page-1,
+    .page-2,
+    .page-3 {
+        margin-left: 70px;
+    }
+    .frank {
+        margin: 0px 10px;
+        background: none;
+    }
+}
+
+
+
+@media(max-width:280px) {
+  body {
+      width: 100%;
+  }  
+  .showcase {
+      width: 100%;
+  }
+  .card-1,
+  .card-2,
+  .card-3 {
+      margin-left: 8px;
+  }
+  .logo,
+  .btn {
+      margin: 0px 4px;
+  }
+  .logo {
+      margin-bottom: 5px;
+  }
+  .frank {
+      margin-right: 5px;
+      margin-left: 5px;
+      background: none;
+  }
+}
+
+  /******about-page************************/
+ .last-section {
+     height: 600px;
+ }
+
+
+ .last-boxes {
+   flex-direction: column;
+   text-align: center;
+   padding: 0px 20px;
+ }
+ 
+ 
+ .box-2 {
+     margin-top: 20px;
+ }
+
+ /*******mediaquery*******/
+ @media(max-width:360px) {
+     .last-section{
+         height: 700px;
+     }
+     .box-2{
+         height: 300px;
+     }
+ }
+
+ @media(max-width:360px) {
+     nav {
+         padding: 10px 10px;
+     }
+     form {
+         margin: 0px 3px;
+     }
+     .box-1 {
+         min-height: 250px;
+     }
+     .last-section {
+       padding-bottom: 5px;
+       min-height: 800px;
+     }
+ }
+
+ @media(max-width:375px){
+     .last-section{
+         min-height: 700px;
+     }
+     .box-2 {
+         min-height: 270px;
+     }
+ }
+
+ @media(max-width:280px) {
+     nav {
+         padding: 10px 2px;
+     }
+     .logos {
+         margin-top: 5px;
+     }
+     .logo {
+        flex-direction: column;
+     }
+     .show-list {
+         min-height: 500px;
+     }
+     .last-section {
+         min-height: 800px;
+     }
+ }
+/******************media-querry************************/
+@media(max-width:)
